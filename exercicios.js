@@ -8,3 +8,9 @@ const juntarArrays =(array, arrayDois, arrayTres) => {
 }
 
 console.log(juntarArrays(array, arrayDois, arrayTres));
+
+const valores = [10,20,30,50];
+
+const somaArray =  valores.reduce((somador,valorAtual) => somador + valorAtual, 0);
+
+console.log(somaArray);
