@@ -14,3 +14,11 @@ const valores = [10,20,30,50];
 const somaArray =  valores.reduce((somador,valorAtual) => somador + valorAtual, 0);
 
 console.log(somaArray);
+
+const coresLista1 = ['Vermelho', 'Verde', 'Azul', 'Amarelo', 'Vermelho'];
+
+const coresLista2 = ['Laranja', 'Verde', 'Roxo', 'Azul'];
+
+const novoArrayCores = [...new Set(coresLista1.concat(coresLista2))];
+
+console.log(novoArrayCores);
