@@ -22,3 +22,6 @@ const coresLista2 = ['Laranja', 'Verde', 'Roxo', 'Azul'];
 const novoArrayCores = [...new Set(coresLista1.concat(coresLista2))];
 
 console.log(novoArrayCores);
+
+const arrayDePares = array.filter((num) => num%2 === 0);
+console.log(arrayDePares);
