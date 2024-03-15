@@ -10,7 +10,6 @@ const juntarArrays =(array, arrayDois, arrayTres) => {
 console.log("\r\n Exercicio 1 ");
 console.log(juntarArrays(array, arrayDois, arrayTres));
 
-
 const valores = [10,20,30,50];
 
 const somaArray =  valores.reduce((somador, valorAtual) => somador + valorAtual, 0);
@@ -18,9 +17,7 @@ const somaArray =  valores.reduce((somador, valorAtual) => somador + valorAtual,
 console.log("\r\n Exercicio 2");
 console.log(somaArray);
 
-
 const coresLista1 = ['Vermelho', 'Verde', 'Azul', 'Amarelo', 'Vermelho'];
-
 const coresLista2 = ['Laranja', 'Verde', 'Roxo', 'Azul'];
 
 const novoArrayCores = [...new Set(coresLista1.concat(coresLista2))];
@@ -28,11 +25,9 @@ const novoArrayCores = [...new Set(coresLista1.concat(coresLista2))];
 console.log("\r\n Exercicio 3");
 console.log(novoArrayCores);
 
-
 const arrayDePares = array.filter((num) => num%2 === 0);
 console.log("\r\n Exercicio 4");
 console.log(arrayDePares);
-
 
 const arrayFiltrado = array.filter((num) => num%3 === 0 && num > 5);
 console.log("\r\n Exercicio 5");
